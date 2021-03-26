@@ -1,0 +1,21 @@
+.topnav {
+  overflow: hidden;
+  margin-left: 900px;
+  justify-content: space-around;
+}
+
+.head-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+.topnav a {
+  float: right;
+  color: #2c4c7a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.logo {
+  margin-left: -150px;
+}
