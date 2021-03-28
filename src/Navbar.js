@@ -9,10 +9,10 @@ function Navbar() {
         <img src={logo} alt="" />
 
         <div className="topnav-right">
-          <a href="#search">Overview</a>
-          <a href="#about">Features</a>
-          <a href="">EcoSystem</a>
           <a href="">Contact</a>
+          <a href="">EcoSystem</a>
+          <a href="">Features</a>
+          <a href="">Overview</a>
         </div>
       </div>
     </div>
