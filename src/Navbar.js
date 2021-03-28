@@ -6,15 +6,13 @@ function Navbar() {
   return (
     <div>
       <div className="head-menu">
-        <div className="logo">
-          <img src={logo} alt="" />
-        </div>
+        <img src={logo} alt="" />
 
-        <div className="topnav">
+        <div className="topnav-right">
+          <a href="#search">Overview</a>
+          <a href="#about">Features</a>
+          <a href="">EcoSystem</a>
           <a href="">Contact</a>
-          <a href="">Litepaper</a>
-          <a href="">Team</a>
-          <a href="">Overview</a>
         </div>
       </div>
     </div>

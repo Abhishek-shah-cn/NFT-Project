@@ -46,6 +46,7 @@ function Contain() {
             </div>
 
             <div className="inner">
+            
               <h2>Collectible Store</h2>
               <br />
               <h3>

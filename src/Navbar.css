@@ -1,6 +1,6 @@
-.topnav {
+/* .topnav {
   overflow: hidden;
-  margin-left: 900px;
+
   justify-content: space-around;
 }
 
@@ -9,7 +9,6 @@
   justify-content: flex-end;
 }
 .topnav a {
-  float: right;
   color: #2c4c7a;
   text-align: center;
   padding: 14px 16px;
@@ -18,4 +17,14 @@
 }
 .logo {
   margin-left: -150px;
+} */
+.head-menu img {
+  float: left;
+}
+.topnav-right a {
+  float: right;
+  color: #33527e;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
