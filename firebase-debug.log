@@ -1,0 +1,193 @@
+[debug] [2021-03-29T00:30:16.549Z] ----------------------------------------------------------------------
+[debug] [2021-03-29T00:30:16.552Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Abhishek Shah\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-03-29T00:30:16.553Z] CLI Version:   9.8.0
+[debug] [2021-03-29T00:30:16.553Z] Platform:      win32
+[debug] [2021-03-29T00:30:16.553Z] Node Version:  v12.17.0
+[debug] [2021-03-29T00:30:16.555Z] Time:          Mon Mar 29 2021 06:00:16 GMT+0530 (India Standard Time)
+[debug] [2021-03-29T00:30:16.555Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-03-29T00:30:16.564Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-29T00:30:16.565Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Abhishek Shah\Desktop\Test\React-3 test\test3
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using nft-web-15a5a. 
+[debug] [2021-03-29T00:30:25.265Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nft-web-15a5a [none]
+[debug] [2021-03-29T00:30:26.157Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nft-web-15a5a 200
+[debug] [2021-03-29T00:30:26.157Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nft-web-15a5a {"projectId":"nft-web-15a5a","projectNumber":"387569904743","displayName":"nft-web","name":"projects/nft-web-15a5a","resources":{"hostingSite":"nft-web-15a5a"},"state":"DELETED"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-03-29T00:31:22.895Z] ----------------------------------------------------------------------
+[debug] [2021-03-29T00:31:22.898Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Abhishek Shah\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-03-29T00:31:22.899Z] CLI Version:   9.8.0
+[debug] [2021-03-29T00:31:22.899Z] Platform:      win32
+[debug] [2021-03-29T00:31:22.899Z] Node Version:  v12.17.0
+[debug] [2021-03-29T00:31:22.901Z] Time:          Mon Mar 29 2021 06:01:22 GMT+0530 (India Standard Time)
+[debug] [2021-03-29T00:31:22.901Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-03-29T00:31:22.914Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-29T00:31:22.915Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Abhishek Shah\Desktop\Test\React-3 test\test3
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using nft-web-15a5a. 
+[debug] [2021-03-29T00:31:29.930Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nft-web-15a5a [none]
+[debug] [2021-03-29T00:31:37.319Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/nft-web-15a5a
+[debug] [2021-03-29T00:31:37.341Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/nft-web-15a5a
+    at Client.doRequest (C:\Users\Abhishek Shah\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:211:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: Failed to get Firebase project nft-web-15a5a. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-03-29T00:33:03.168Z] ----------------------------------------------------------------------
+[debug] [2021-03-29T00:33:03.172Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Abhishek Shah\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-03-29T00:33:03.172Z] CLI Version:   9.8.0
+[debug] [2021-03-29T00:33:03.172Z] Platform:      win32
+[debug] [2021-03-29T00:33:03.172Z] Node Version:  v12.17.0
+[debug] [2021-03-29T00:33:03.174Z] Time:          Mon Mar 29 2021 06:03:03 GMT+0530 (India Standard Time)
+[debug] [2021-03-29T00:33:03.174Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-03-29T00:33:03.184Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-29T00:33:03.185Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Abhishek Shah\Desktop\Test\React-3 test\test3
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2021-03-29T00:33:52.744Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-03-29T00:33:52.745Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-03-29T00:33:52.812Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at invalidCredentialError (C:\Users\Abhishek Shah\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:26:12)
+    at refreshTokens (C:\Users\Abhishek Shah\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:297:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2021-03-29T00:34:01.470Z] ----------------------------------------------------------------------
+[debug] [2021-03-29T00:34:01.473Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Abhishek Shah\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-03-29T00:34:01.474Z] CLI Version:   9.8.0
+[debug] [2021-03-29T00:34:01.474Z] Platform:      win32
+[debug] [2021-03-29T00:34:01.474Z] Node Version:  v12.17.0
+[debug] [2021-03-29T00:34:01.476Z] Time:          Mon Mar 29 2021 06:04:01 GMT+0530 (India Standard Time)
+[debug] [2021-03-29T00:34:01.476Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-03-29T00:34:01.486Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-29T00:34:01.487Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Abhishek Shah\Desktop\Test\React-3 test\test3
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-03-29T00:34:10.541Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-03-29T00:34:10.563Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2021-03-29T00:34:10.579Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+    at Client.doRequest (C:\Users\Abhishek Shah\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:211:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2021-03-29T00:34:27.126Z] ----------------------------------------------------------------------
+[debug] [2021-03-29T00:34:27.130Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Abhishek Shah\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-03-29T00:34:27.130Z] CLI Version:   9.8.0
+[debug] [2021-03-29T00:34:27.130Z] Platform:      win32
+[debug] [2021-03-29T00:34:27.130Z] Node Version:  v12.17.0
+[debug] [2021-03-29T00:34:27.133Z] Time:          Mon Mar 29 2021 06:04:27 GMT+0530 (India Standard Time)
+[debug] [2021-03-29T00:34:27.133Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-03-29T00:34:27.145Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-29T00:34:27.145Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Abhishek Shah\Desktop\Test\React-3 test\test3
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-03-29T00:34:33.202Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-03-29T00:34:33.225Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2021-03-29T00:34:33.243Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+    at Client.doRequest (C:\Users\Abhishek Shah\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:211:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
