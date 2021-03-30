@@ -3,7 +3,7 @@ import "./App.css";
 import Contain from "./Contain";
 import Navbar from "./Navbar";
 import Footer from './Footer';
-import Contact from './Contact'
+
 
 
 
@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <Contain />
       <Footer/>
-      <Contact/>
+     
       
     </div>
   );

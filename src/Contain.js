@@ -188,16 +188,17 @@ const mix_style = {
 
           <div className="float-child-eco">
             <div className="">
-              <h2>Gate launchpad</h2>
+              <h2>NFTs lending protocol</h2>
               <p>
-                NFT gate empowers the crypto community and upcoming <br />
-                high-potential NFT project through completely decentralized{" "}
+                Lending protocol are the most sought-after stable in the  <br />
+
+              Defi rodeo. NFT Gate provides the best pools for lenders and 
                 <br />
-                token auction. <br />
-                NFT Gate community can take GATE tokens <br /> to participate in
-                a varaiety of whitelisting , seed functing , <br />
-                and private sales campaign and support there favorite NFT
-                projects
+               borrowers using NFT-baked fungible tokens, Stablecoins and  <br />
+               popular Cryptocurrencie <br/> <br/>
+               The platform hosts an open-source , non-custodial Defi <br/>
+               lending protocol that brings flexible pool protocols to lenders <br/>
+               and borrowers
               </p>
             </div>
             <img src={red} style={red_style} alt="" />
@@ -207,16 +208,14 @@ const mix_style = {
 
           <div className="float-child-eco">
             <div className="">
-              <h2>Gate launchpad</h2>
+              <h2>Gate marketplace</h2>
               <p>
-                NFT gate empowers the crypto community and upcoming <br />
-                high-potential NFT project through completely decentralized{" "}
+               The NFT Gate market place to achieve mass adoption of <br/>
+               and NFTs by bringing a larger user-base to the NFT space. NFT 
+               Gate <br/> empowers each user with a simple user-interface, <br/>
+               authentic auction, easy trades and supports for Multiple wallets
                 <br />
-                token auction. <br />
-                NFT Gate community can take GATE tokens <br /> to participate in
-                a varaiety of whitelisting , seed functing , <br />
-                and private sales campaign and support there favorite NFT
-                projects
+               
               </p>
             </div>
           </div>
@@ -233,16 +232,12 @@ const mix_style = {
 
           <div className="float-child-eco">
             <div className="">
-              <h2>Gate launchpad</h2>
+              <h2>Incubation</h2>
               <p>
-                NFT gate empowers the crypto community and upcoming <br />
-                high-potential NFT project through completely decentralized{" "}
-                <br />
-                token auction. <br />
-                NFT Gate community can take GATE tokens <br /> to participate in
-                a varaiety of whitelisting , seed functing , <br />
-                and private sales campaign and support there favorite NFT
-                projects
+                NFT gate gives crypto startups access to the multiple <br/>
+                resources that helps drive there uniuqe NFT ideas from paper <br/>
+                code.
+              
               </p>
             </div>
           </div>
