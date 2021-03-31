@@ -50,8 +50,11 @@ input[type="text"] {
   border-radius: 50px 50px 50px 50px;
   text-align:inherit
 }
-p{
-  top: 35%;
+.copy {
+  margin: auto;
+ float: left;
+  position: absolute;
+  width: 100%;
   color: aliceblue;
 }
 .contact {
@@ -61,9 +64,16 @@ p{
   margin: 0%;
 }
 .display {
-  display: block;
+  display: flex;
 }
-
+.links p {
+  
+  padding-top: 50px;
+  color: aliceblue;
+}
+.support{
+  padding-top: 20px;
+}
 .logo {
   position: absolute;
   margin-top: 5%;
@@ -90,9 +100,10 @@ h3 {
 }
 .connect {
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 70%;
 }
+
 
 .contact img {
   margin-top: 350px;

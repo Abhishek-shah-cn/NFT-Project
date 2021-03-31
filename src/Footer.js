@@ -9,7 +9,6 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 
-
 import "./Footer.css";
 
 function Footer() {
@@ -43,30 +42,37 @@ function Footer() {
             <a href="">Features</a>
             <a href="">Ecosystem</a>
             <a href="">Contact</a>
+            <p>Copyright &copy; 2021 NFT Gate</p>
           </div>
 
           <div className="connect">
             <h2>Connect With Us</h2>
-            <a href="">
+            <a href="https://twitter.com/nftgate">
               <FaTwitter />
-            
+            </a>
+            <a href="https://t.me/nftgateofficial">
+              <FaTelegram />
             </a>
             <a href="">
-            <FaTelegram/>
+              <FaLinkedin />
             </a>
-            <a href="">
-              <FaLinkedin/>
+            <a href="https://medium.com/@nftgate">
+              <FaMedium />
             </a>
-            <a href="">
-              <FaMedium/>
+            <a href="https://www.facebook.com/nftgateofficial/">
+              <FaFacebook />
             </a>
-            <a href="">
-              <FaFacebook/>
-            </a>
-            <p>Copyright &copy; 2021 NFT Gate</p>
-          </div>
 
-          
+            <div className="support">
+              <h2>Support & Media Inquiries</h2>
+
+              <h3>contact@nftgate.io</h3>
+
+              
+            </div>
+
+           
+          </div>
         </div>
       </div>
     </div>
