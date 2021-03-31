@@ -16,7 +16,7 @@ import green from "./assets/green.png";
 import red from "./assets/red.png";
 import mix from "./assets/mix.png";
 import sky from "./assets/sky.png";
-import last from "./assets/last.jpg"
+import last from "./assets/last.jpg";
 import "./Contain.css";
 
 function Contain() {
@@ -45,36 +45,36 @@ function Contain() {
     left: "110px",
     position: "absolute",
   };
-  
+
   const red_style = {
     width: "8%",
     height: "auto",
-    
+
     top: "45%",
     float: "right",
     left: "95%",
     position: "absolute",
-  }
+  };
 
   const green_style = {
     width: "8%",
     height: "auto",
-    
+
     top: "70%",
     float: "right",
     left: "-50px",
     position: "absolute",
-  }
-  
-const mix_style = {
-  width: "8%",
+  };
+
+  const mix_style = {
+    width: "8%",
     height: "auto",
-    
+
     top: "95%",
     float: "right",
     left: "80%",
     position: "absolute",
-}
+  };
 
   return (
     <div>
@@ -190,32 +190,31 @@ const mix_style = {
             <div className="">
               <h2>NFTs lending protocol</h2>
               <p>
-                Lending protocol are the most sought-after stable in the  <br />
-
-              Defi rodeo. NFT Gate provides the best pools for lenders and 
+                Lending protocol are the most sought-after stable in the <br />
+                Defi rodeo. NFT Gate provides the best pools for lenders and
                 <br />
-               borrowers using NFT-baked fungible tokens, Stablecoins and  <br />
-               popular Cryptocurrencie <br/> <br/>
-               The platform hosts an open-source , non-custodial Defi <br/>
-               lending protocol that brings flexible pool protocols to lenders <br/>
-               and borrowers
+                borrowers using NFT-baked fungible tokens, Stablecoins and{" "}
+                <br />
+                popular Cryptocurrencie <br /> <br />
+                The platform hosts an open-source , non-custodial Defi <br />
+                lending protocol that brings flexible pool protocols to lenders{" "}
+                <br />
+                and borrowers
               </p>
             </div>
             <img src={red} style={red_style} alt="" />
           </div>
 
-          
-
           <div className="float-child-eco">
             <div className="">
               <h2>Gate marketplace</h2>
               <p>
-               The NFT Gate market place to achieve mass adoption of <br/>
-               and NFTs by bringing a larger user-base to the NFT space. NFT 
-               Gate <br/> empowers each user with a simple user-interface, <br/>
-               authentic auction, easy trades and supports for Multiple wallets
+                The NFT Gate market place to achieve mass adoption of <br />
+                and NFTs by bringing a larger user-base to the NFT space. NFT
+                Gate <br /> empowers each user with a simple user-interface,{" "}
                 <br />
-               
+                authentic auction, easy trades and supports for Multiple wallets
+                <br />
               </p>
             </div>
           </div>
@@ -224,7 +223,7 @@ const mix_style = {
             <img src={market} style={style_launch} alt="" />
           </div>
 
-          <img src={green} alt="" style={green_style}/>
+          <img src={green} alt="" style={green_style} />
 
           <div className="float-child-eco">
             <img src={incubation} style={style_launch} alt="" />
@@ -234,19 +233,16 @@ const mix_style = {
             <div className="">
               <h2>Incubation</h2>
               <p>
-                NFT gate gives crypto startups access to the multiple <br/>
-                resources that helps drive there uniuqe NFT ideas from paper <br/>
+                NFT gate gives crypto startups access to the multiple <br />
+                resources that helps drive there uniuqe NFT ideas from paper{" "}
+                <br />
                 code.
-              
               </p>
             </div>
           </div>
-          <img src={mix} alt="" style={mix_style}/>
+          <img src={mix} alt="" style={mix_style} />
         </div>
       </div>
-
-    
-     
     </div>
   );
 }
